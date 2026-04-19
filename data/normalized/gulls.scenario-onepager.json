@@ -1,0 +1,155 @@
+{
+  "scenarioColumns": {
+    "Baseline": "Efficiency / Ops",
+    "Tactical": "Sales & Retention",
+    "Aggressive": "Premium + Sponsorship"
+  },
+  "levers": [
+    {
+      "leverKey": "attendance_uplift",
+      "leverLabel": "Attendance uplift",
+      "valuesByScenario": {
+        "Baseline": 0.02,
+        "Tactical": 0.04,
+        "Aggressive": 0.06
+      }
+    },
+    {
+      "leverKey": "watp_uplift",
+      "leverLabel": "WATP uplift",
+      "valuesByScenario": {
+        "Baseline": 0.015,
+        "Tactical": 0.025,
+        "Aggressive": 0.04
+      }
+    },
+    {
+      "leverKey": "per_cap_uplift",
+      "leverLabel": "Per-cap uplift",
+      "valuesByScenario": {
+        "Baseline": 0.03,
+        "Tactical": 0.05,
+        "Aggressive": 0.07
+      }
+    },
+    {
+      "leverKey": "sponsorship_uplift",
+      "leverLabel": "Sponsorship uplift",
+      "valuesByScenario": {
+        "Baseline": 0.04,
+        "Tactical": 0.08,
+        "Aggressive": 0.12
+      }
+    },
+    {
+      "leverKey": "ebitda_margin_uplift",
+      "leverLabel": "EBITDA margin uplift",
+      "valuesByScenario": {
+        "Baseline": 0.003,
+        "Tactical": 0.006,
+        "Aggressive": 0.01
+      }
+    }
+  ],
+  "projections": [
+    {
+      "metricKey": "projected_attendance",
+      "metricLabel": "Projected attendance",
+      "valuesByScenario": {
+        "Baseline": 7778,
+        "Tactical": 7930,
+        "Aggressive": 8083
+      }
+    },
+    {
+      "metricKey": "projected_watp",
+      "metricLabel": "Projected WATP",
+      "valuesByScenario": {
+        "Baseline": 26.60315,
+        "Tactical": 26.86525,
+        "Aggressive": 27.2584
+      }
+    },
+    {
+      "metricKey": "projected_per_cap",
+      "metricLabel": "Projected per-cap",
+      "valuesByScenario": {
+        "Baseline": 21.321,
+        "Tactical": 21.735,
+        "Aggressive": 22.149
+      }
+    },
+    {
+      "metricKey": "projected_sponsorship",
+      "metricLabel": "Projected sponsorship",
+      "valuesByScenario": {
+        "Baseline": 3069144,
+        "Tactical": 3187188,
+        "Aggressive": 3305232.0000000005
+      }
+    },
+    {
+      "metricKey": "incremental_gate_revenue",
+      "metricLabel": "Incremental gate revenue",
+      "valuesByScenario": {
+        "Baseline": 254449.82519999985,
+        "Tactical": 474846.5700000003,
+        "Aggressive": 737222.2992000002
+      }
+    },
+    {
+      "metricKey": "incremental_ancillary_revenue",
+      "metricLabel": "Incremental ancillary revenue",
+      "valuesByScenario": {
+        "Baseline": 287900.56799999997,
+        "Tactical": 522757.7999999998,
+        "Aggressive": 762943.2120000003
+      }
+    },
+    {
+      "metricKey": "incremental_sponsorship",
+      "metricLabel": "Incremental sponsorship",
+      "valuesByScenario": {
+        "Baseline": 118044,
+        "Tactical": 236088,
+        "Aggressive": 354132.00000000047
+      }
+    },
+    {
+      "metricKey": "total_incremental_revenue",
+      "metricLabel": "Total incremental revenue",
+      "valuesByScenario": {
+        "Baseline": 660394.3931999998,
+        "Tactical": 1233692.37,
+        "Aggressive": 1854297.511200001
+      }
+    },
+    {
+      "metricKey": "projected_total_revenue",
+      "metricLabel": "Projected total revenue",
+      "valuesByScenario": {
+        "Baseline": 12692259.393199999,
+        "Tactical": 13265557.370000001,
+        "Aggressive": 13886162.511200001
+      }
+    },
+    {
+      "metricKey": "projected_ebitda",
+      "metricLabel": "Projected EBITDA",
+      "valuesByScenario": {
+        "Baseline": 1812722.8706610978,
+        "Tactical": 1934398.6095356706,
+        "Aggressive": 2080440.6046014111
+      }
+    },
+    {
+      "metricKey": "projected_valuation",
+      "metricLabel": "Projected valuation",
+      "valuesByScenario": {
+        "Baseline": 40615230.05824,
+        "Tactical": 42449783.58400001,
+        "Aggressive": 44435720.035840005
+      }
+    }
+  ]
+}

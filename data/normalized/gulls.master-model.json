@@ -1,0 +1,2302 @@
+[
+  {
+    "id": "1",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "1_average_attendance",
+    "fieldLabel": "Average attendance",
+    "unit": "fans/game",
+    "valuesByYear": {
+      "2021-22": 6992,
+      "2022-23": 6953,
+      "2023-24": 7249,
+      "2024-25": 7262,
+      "2025-26": 7403,
+      "2026-27": 7625
+    },
+    "rawStatus": "Public input / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "HockeyDB / official schedule"
+    },
+    "notes": "2026-27 baseline projected from 2025-26 using control."
+  },
+  {
+    "id": "2",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "2_home_games",
+    "fieldLabel": "Home games",
+    "unit": "games",
+    "valuesByYear": {
+      "2021-22": 34,
+      "2022-23": 36,
+      "2023-24": 36,
+      "2024-25": 36,
+      "2025-26": 36,
+      "2026-27": 36
+    },
+    "rawStatus": "Public input",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official schedules"
+    },
+    "notes": "2021-22 was 34 home games; subsequent seasons 36."
+  },
+  {
+    "id": "3",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "3_total_home_attendance",
+    "fieldLabel": "Total home attendance",
+    "unit": "fans",
+    "valuesByYear": {
+      "2021-22": 237728,
+      "2022-23": 250308,
+      "2023-24": 260964,
+      "2024-25": 261432,
+      "2025-26": 266508,
+      "2026-27": 274500
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Attendance \u00d7 home games"
+    },
+    "notes": "Average attendance multiplied by home games."
+  },
+  {
+    "id": "4",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "4_home_weekend_dates",
+    "fieldLabel": "Home weekend dates",
+    "unit": "dates",
+    "valuesByYear": {
+      "2021-22": 23,
+      "2022-23": 23,
+      "2023-24": 26,
+      "2024-25": 25,
+      "2025-26": 25,
+      "2026-27": 25
+    },
+    "rawStatus": "Public input",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official schedules"
+    },
+    "notes": "Official yearly schedule releases."
+  },
+  {
+    "id": "5",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "5_friday_home_games",
+    "fieldLabel": "Friday home games",
+    "unit": "games",
+    "valuesByYear": {
+      "2021-22": 11,
+      "2022-23": 12,
+      "2023-24": 12,
+      "2024-25": 9,
+      "2025-26": 10,
+      "2026-27": 10
+    },
+    "rawStatus": "Public input",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official schedules"
+    },
+    "notes": "Official yearly schedule releases."
+  },
+  {
+    "id": "6",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "6_saturday_home_games",
+    "fieldLabel": "Saturday home games",
+    "unit": "games",
+    "valuesByYear": {
+      "2021-22": 11,
+      "2022-23": 11,
+      "2023-24": 12,
+      "2024-25": 14,
+      "2025-26": 10,
+      "2026-27": 11
+    },
+    "rawStatus": "Public input / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official schedules"
+    },
+    "notes": "2026-27 baseline projected mix."
+  },
+  {
+    "id": "7",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "7_sunday_home_games",
+    "fieldLabel": "Sunday home games",
+    "unit": "games",
+    "valuesByYear": {
+      "2021-22": 1,
+      "2022-23": 1,
+      "2023-24": 2,
+      "2024-25": 2,
+      "2025-26": 5,
+      "2026-27": 4
+    },
+    "rawStatus": "Public input / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official schedules"
+    },
+    "notes": "2026-27 baseline projected mix."
+  },
+  {
+    "id": "8",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "8_back_to_back_sets",
+    "fieldLabel": "Back-to-back sets",
+    "unit": "sets",
+    "valuesByYear": {
+      "2021-22": 24,
+      "2022-23": 21,
+      "2023-24": 18,
+      "2024-25": 20,
+      "2025-26": 22,
+      "2026-27": 22
+    },
+    "rawStatus": "Public input",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official schedules"
+    },
+    "notes": "Official yearly schedule releases."
+  },
+  {
+    "id": "9",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "9_promotional_theme_nights",
+    "fieldLabel": "Promotional / theme nights",
+    "unit": "nights",
+    "valuesByYear": {
+      "2021-22": 13,
+      "2022-23": 15,
+      "2023-24": 16,
+      "2024-25": 23,
+      "2025-26": 28,
+      "2026-27": 30
+    },
+    "rawStatus": "Public input / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official promo releases"
+    },
+    "notes": "2025-26 includes 8 anniversary nights + 20 additional promotional nights."
+  },
+  {
+    "id": "10",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "10_giveaway_items",
+    "fieldLabel": "Giveaway items",
+    "unit": "items",
+    "valuesByYear": {
+      "2021-22": 7,
+      "2022-23": 6,
+      "2023-24": 10,
+      "2024-25": 11,
+      "2025-26": 5,
+      "2026-27": 6
+    },
+    "rawStatus": "Public input / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official promo releases"
+    },
+    "notes": "2025-26 current public list includes five announced giveaways."
+  },
+  {
+    "id": "11",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "11_pregame_tailgates",
+    "fieldLabel": "Pregame tailgates",
+    "unit": "events",
+    "valuesByYear": {
+      "2021-22": 6,
+      "2022-23": 6,
+      "2023-24": 7,
+      "2024-25": 7,
+      "2025-26": 7,
+      "2026-27": 8
+    },
+    "rawStatus": "Public input / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official promo releases"
+    },
+    "notes": "Counted / projected from public promo schedules."
+  },
+  {
+    "id": "12",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "12_stm_entry_price",
+    "fieldLabel": "STM entry price",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 476,
+      "2022-23": 540,
+      "2023-24": 540,
+      "2024-25": 560,
+      "2025-26": 614,
+      "2026-27": 632
+    },
+    "rawStatus": "Public input / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official ticketing releases"
+    },
+    "notes": "Gulls Elite floor price."
+  },
+  {
+    "id": "13",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "13_stm_entry_price_per_game",
+    "fieldLabel": "STM entry price per game",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 14,
+      "2022-23": 15,
+      "2023-24": 15,
+      "2024-25": 15.555555555555555,
+      "2025-26": 17.055555555555557,
+      "2026-27": 17.555555555555557
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "STM entry price \u00f7 home games"
+    },
+    "notes": "Season-ticket floor divided by home games."
+  },
+  {
+    "id": "14",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "14_single_game_floor_box_office_public",
+    "fieldLabel": "Single-game floor (box office / public)",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 19,
+      "2022-23": 21,
+      "2023-24": 20,
+      "2024-25": 22,
+      "2025-26": 23,
+      "2026-27": 24
+    },
+    "rawStatus": "Public input / estimate / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official ticketing releases"
+    },
+    "notes": "2024-25 floor is interpolated estimate."
+  },
+  {
+    "id": "15",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "15_single_game_floor_online_incl_fees",
+    "fieldLabel": "Single-game floor (online incl. fees)",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 0,
+      "2024-25": 27.5,
+      "2025-26": 28.75,
+      "2026-27": 29.75
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official 2025-26 ticketing release"
+    },
+    "notes": "2025-26 is official; 2024-25 and 2026-27 are modeled estimates."
+  },
+  {
+    "id": "16",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "16_college_ticket_price",
+    "fieldLabel": "College ticket price",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 0,
+      "2024-25": 0,
+      "2025-26": 17,
+      "2026-27": 17.5
+    },
+    "rawStatus": "Public input / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official college page"
+    },
+    "notes": "Current season official price."
+  },
+  {
+    "id": "17",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "17_family_pack_price_floor",
+    "fieldLabel": "Family pack price floor",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 0,
+      "2024-25": 0,
+      "2025-26": 130,
+      "2026-27": 135
+    },
+    "rawStatus": "Public input / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official family-pack page"
+    },
+    "notes": "Current-season official product."
+  },
+  {
+    "id": "18",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "18_group_minimum_size",
+    "fieldLabel": "Group minimum size",
+    "unit": "tickets",
+    "valuesByYear": {
+      "2021-22": 10,
+      "2022-23": 10,
+      "2023-24": 10,
+      "2024-25": 10,
+      "2025-26": 10,
+      "2026-27": 10
+    },
+    "rawStatus": "Public / context",
+    "normalizedStatus": "context",
+    "metricClass": "context",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official group page"
+    },
+    "notes": "Assumed stable historically."
+  },
+  {
+    "id": "19",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "19_max_mini_plan_discount",
+    "fieldLabel": "Max mini-plan discount",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.15,
+      "2022-23": 0.15,
+      "2023-24": 0.2,
+      "2024-25": 0.3,
+      "2025-26": 0.3,
+      "2026-27": 0.3
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Public current mini-plan page"
+    },
+    "notes": "Historical values are conservative placeholders."
+  },
+  {
+    "id": "20",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "20_weighted_average_ticket_price_modeled",
+    "fieldLabel": "Weighted average ticket price (modeled)",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 22,
+      "2022-23": 22.4,
+      "2023-24": 23.4,
+      "2024-25": 24.4,
+      "2025-26": 25.4,
+      "2026-27": 26.21
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Modeled from ticket product mix and public price anchors."
+  },
+  {
+    "id": "21",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "21_group_sales_share_of_gate",
+    "fieldLabel": "Group sales share of gate",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.16,
+      "2022-23": 0.17,
+      "2023-24": 0.18,
+      "2024-25": 0.19,
+      "2025-26": 0.2,
+      "2026-27": 0.21
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Logical range based on minor-league group channel importance."
+  },
+  {
+    "id": "22",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "22_premium_seating_yield",
+    "fieldLabel": "Premium seating yield",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 380000,
+      "2022-23": 400000,
+      "2023-24": 460000,
+      "2024-25": 520000,
+      "2025-26": 600000,
+      "2026-27": 660000
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Embedded within gate yield; not additive in revenue total."
+  },
+  {
+    "id": "23",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "23_stm_base_fse",
+    "fieldLabel": "STM base (FSE)",
+    "unit": "FSE",
+    "valuesByYear": {
+      "2021-22": 2300,
+      "2022-23": 2350,
+      "2023-24": 2450,
+      "2024-25": 2550,
+      "2025-26": 2700,
+      "2026-27": 2780
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Modeled from attendance and ticket mix."
+  },
+  {
+    "id": "24",
+    "group": "Fan Demand / Ticketing",
+    "fieldKey": "24_stm_retention_rate",
+    "fieldLabel": "STM retention rate",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.77,
+      "2022-23": 0.76,
+      "2023-24": 0.78,
+      "2024-25": 0.8,
+      "2025-26": 0.82,
+      "2026-27": 0.83
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Modeled range."
+  },
+  {
+    "id": "25",
+    "group": "Revenue Engine",
+    "fieldKey": "25_gate_revenue",
+    "fieldLabel": "Gate revenue",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 5230016,
+      "2022-23": 5606899.199999999,
+      "2023-24": 6106557.6,
+      "2024-25": 6378940.8,
+      "2025-26": 6769303.199999999,
+      "2026-27": 7194645
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Total attendance \u00d7 WATP"
+    },
+    "notes": "Modeled gate revenue using weighted average ticket price."
+  },
+  {
+    "id": "26",
+    "group": "Revenue Engine",
+    "fieldKey": "26_facility_fee_per_paid_ticket",
+    "fieldLabel": "Facility fee per paid ticket",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 2.5,
+      "2024-25": 3,
+      "2025-26": 3,
+      "2026-27": 3
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Lease-era reporting / model assumption"
+    },
+    "notes": "Publicly discussed current surcharge structure; early years not confirmed."
+  },
+  {
+    "id": "27",
+    "group": "Revenue Engine",
+    "fieldKey": "27_facility_fee_liability",
+    "fieldLabel": "Facility fee liability",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 652410,
+      "2024-25": 784296,
+      "2025-26": 799524,
+      "2026-27": 823500
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Total attendance \u00d7 facility fee"
+    },
+    "notes": "Pass-through city/venue fee liability estimate."
+  },
+  {
+    "id": "28",
+    "group": "Revenue Engine",
+    "fieldKey": "28_revenue_per_available_seat_revpas",
+    "fieldLabel": "Revenue per available seat (RevPAS)",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 11.905882352941177,
+      "2022-23": 12.054736842105262,
+      "2023-24": 13.128993808049534,
+      "2024-25": 13.714613003095975,
+      "2025-26": 14.553885448916407,
+      "2026-27": 15.468363003095975
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Gate \u00f7 (capacity \u00d7 home games)"
+    },
+    "notes": "Uses 12,920 hockey capacity."
+  },
+  {
+    "id": "29",
+    "group": "Revenue Engine",
+    "fieldKey": "29_f_b_per_cap_gross",
+    "fieldLabel": "F&B per-cap gross",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 13,
+      "2022-23": 13.4,
+      "2023-24": 14,
+      "2024-25": 14.8,
+      "2025-26": 15.5,
+      "2026-27": 16
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Gross in-building spend, not team net."
+  },
+  {
+    "id": "30",
+    "group": "Revenue Engine",
+    "fieldKey": "30_team_concession_commission_rate",
+    "fieldLabel": "Team concession commission rate",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.04,
+      "2022-23": 0.04,
+      "2023-24": 0.04,
+      "2024-25": 0.04,
+      "2025-26": 0.04,
+      "2026-27": 0.04
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Private split; modeled nominal rate."
+  },
+  {
+    "id": "31",
+    "group": "Revenue Engine",
+    "fieldKey": "31_concession_commission_revenue",
+    "fieldLabel": "Concession commission revenue",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 123618.56,
+      "2022-23": 134165.08800000002,
+      "2023-24": 146139.84,
+      "2024-25": 154767.744,
+      "2025-26": 165234.96,
+      "2026-27": 175680
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Attendance \u00d7 F&B per-cap \u00d7 commission rate"
+    },
+    "notes": "Team-side concession revenue estimate."
+  },
+  {
+    "id": "32",
+    "group": "Revenue Engine",
+    "fieldKey": "32_merchandise_per_cap",
+    "fieldLabel": "Merchandise per-cap",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 3.6,
+      "2022-23": 3.8,
+      "2023-24": 4,
+      "2024-25": 4.2,
+      "2025-26": 4.5,
+      "2026-27": 4.7
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Modeled team-store spend per attendee."
+  },
+  {
+    "id": "33",
+    "group": "Revenue Engine",
+    "fieldKey": "33_merchandise_revenue",
+    "fieldLabel": "Merchandise revenue",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 855820.8,
+      "2022-23": 951170.3999999999,
+      "2023-24": 1043856,
+      "2024-25": 1098014.4000000001,
+      "2025-26": 1199286,
+      "2026-27": 1290150
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Attendance \u00d7 merch per-cap"
+    },
+    "notes": "Modeled gross merchandise revenue."
+  },
+  {
+    "id": "34",
+    "group": "Revenue Engine",
+    "fieldKey": "34_parking_fee_assumption",
+    "fieldLabel": "Parking fee assumption",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 15,
+      "2022-23": 15,
+      "2023-24": 15,
+      "2024-25": 18,
+      "2025-26": 20,
+      "2026-27": 21
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Public parking page + model"
+    },
+    "notes": "Event-specific public fee structure; year values are model anchors."
+  },
+  {
+    "id": "35",
+    "group": "Revenue Engine",
+    "fieldKey": "35_average_auto_occupancy",
+    "fieldLabel": "Average auto occupancy",
+    "unit": "persons",
+    "valuesByYear": {
+      "2021-22": 2.6,
+      "2022-23": 2.6,
+      "2023-24": 2.6,
+      "2024-25": 2.5,
+      "2025-26": 2.5,
+      "2026-27": 2.5
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Transport assumption for parking yield."
+  },
+  {
+    "id": "36",
+    "group": "Revenue Engine",
+    "fieldKey": "36_team_share_of_parking",
+    "fieldLabel": "Team share of parking",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.05,
+      "2022-23": 0.05,
+      "2023-24": 0.05,
+      "2024-25": 0.05,
+      "2025-26": 0.05,
+      "2026-27": 0.05
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "No public split located; nominal placeholder only."
+  },
+  {
+    "id": "37",
+    "group": "Revenue Engine",
+    "fieldKey": "37_parking_revenue_yield",
+    "fieldLabel": "Parking revenue yield",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 68575.38461538461,
+      "2022-23": 72204.23076923077,
+      "2023-24": 75278.07692307692,
+      "2024-25": 94115.52000000002,
+      "2025-26": 106603.20000000001,
+      "2026-27": 115290
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Attendance \u00f7 occupancy \u00d7 fee \u00d7 share"
+    },
+    "notes": "Team-side parking estimate."
+  },
+  {
+    "id": "38",
+    "group": "Revenue Engine",
+    "fieldKey": "38_total_per_cap_spend_f_b_merch",
+    "fieldLabel": "Total per-cap spend (F&B + merch)",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 16.6,
+      "2022-23": 17.2,
+      "2023-24": 18,
+      "2024-25": 19,
+      "2025-26": 20,
+      "2026-27": 20.7
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "F&B per-cap + merch per-cap"
+    },
+    "notes": "Gross fan spend indicator."
+  },
+  {
+    "id": "39",
+    "group": "Revenue Engine",
+    "fieldKey": "39_total_sponsorship_revenue",
+    "fieldLabel": "Total sponsorship revenue",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 1950000,
+      "2022-23": 2000000,
+      "2023-24": 2200000,
+      "2024-25": 2450000,
+      "2025-26": 2700000,
+      "2026-27": 2951100
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Total sponsorship / partner inventory revenue."
+  },
+  {
+    "id": "40",
+    "group": "Revenue Engine",
+    "fieldKey": "40_title_partner_value",
+    "fieldLabel": "Title partner value",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 450000,
+      "2022-23": 450000,
+      "2023-24": 480000,
+      "2024-25": 500000,
+      "2025-26": 550000,
+      "2026-27": 580000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Subcomponent of sponsorship total."
+  },
+  {
+    "id": "41",
+    "group": "Revenue Engine",
+    "fieldKey": "41_jersey_patch_revenue",
+    "fieldLabel": "Jersey / patch revenue",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 150000,
+      "2024-25": 180000,
+      "2025-26": 200000,
+      "2026-27": 220000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Subcomponent of sponsorship total."
+  },
+  {
+    "id": "42",
+    "group": "Revenue Engine",
+    "fieldKey": "42_digital_inventory_yield",
+    "fieldLabel": "Digital inventory yield",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 80000,
+      "2022-23": 90000,
+      "2023-24": 110000,
+      "2024-25": 130000,
+      "2025-26": 150000,
+      "2026-27": 165000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Subcomponent of sponsorship total."
+  },
+  {
+    "id": "43",
+    "group": "Revenue Engine",
+    "fieldKey": "43_other_sponsorship_revenue",
+    "fieldLabel": "Other sponsorship revenue",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 1420000,
+      "2022-23": 1460000,
+      "2023-24": 1460000,
+      "2024-25": 1640000,
+      "2025-26": 1800000,
+      "2026-27": 1986100
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Residual sponsorship value"
+    },
+    "notes": "Total sponsorship less title, patch, and digital subcomponents."
+  },
+  {
+    "id": "44",
+    "group": "Revenue Engine",
+    "fieldKey": "44_broadcast_streaming_value",
+    "fieldLabel": "Broadcast / streaming value",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 150000,
+      "2022-23": 100000,
+      "2023-24": 100000,
+      "2024-25": 110000,
+      "2025-26": 130000,
+      "2026-27": 145000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "AHL/FloHockey + local TV context"
+    },
+    "notes": "Modeled media value."
+  },
+  {
+    "id": "45",
+    "group": "Revenue Engine",
+    "fieldKey": "45_youth_hockey_camp_revenue",
+    "fieldLabel": "Youth hockey / camp revenue",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 80000,
+      "2022-23": 90000,
+      "2023-24": 100000,
+      "2024-25": 120000,
+      "2025-26": 140000,
+      "2026-27": 160000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Direct ecosystem youth / camp estimate."
+  },
+  {
+    "id": "46",
+    "group": "Revenue Engine",
+    "fieldKey": "46_gross_annual_revenue",
+    "fieldLabel": "Gross annual revenue",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 8458030.744615383,
+      "2022-23": 8954438.91876923,
+      "2023-24": 9771831.516923077,
+      "2024-25": 10405838.464,
+      "2025-26": 11210427.36,
+      "2026-27": 12031865
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Gate + commission + merch + parking + sponsorship + media + youth"
+    },
+    "notes": "Excludes NHL parent subsidy to preserve stand-alone club revenue view."
+  },
+  {
+    "id": "47",
+    "group": "Revenue Engine",
+    "fieldKey": "47_nhl_parent_subsidy",
+    "fieldLabel": "NHL parent subsidy",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 4200000,
+      "2022-23": 4300000,
+      "2023-24": 4400000,
+      "2024-25": 4500000,
+      "2025-26": 4700000,
+      "2026-27": 4900000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Anaheim Ducks affiliate support estimate."
+  },
+  {
+    "id": "48",
+    "group": "Revenue Engine",
+    "fieldKey": "48_operating_resources_incl_parent_support",
+    "fieldLabel": "Operating resources incl. parent support",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 12658030.744615383,
+      "2022-23": 13254438.91876923,
+      "2023-24": 14171831.516923077,
+      "2024-25": 14905838.464,
+      "2025-26": 15910427.36,
+      "2026-27": 16931865
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Gross revenue + parent subsidy"
+    },
+    "notes": "Useful for full operating-scale context."
+  },
+  {
+    "id": "49",
+    "group": "Arena / Municipal",
+    "fieldKey": "49_hockey_seating_capacity",
+    "fieldLabel": "Hockey seating capacity",
+    "unit": "seats",
+    "valuesByYear": {
+      "2021-22": 12920,
+      "2022-23": 12920,
+      "2023-24": 12920,
+      "2024-25": 12920,
+      "2025-26": 12920,
+      "2026-27": 12920
+    },
+    "rawStatus": "Context",
+    "normalizedStatus": "context",
+    "metricClass": "context",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official media guide"
+    },
+    "notes": "Capacity used in RevPAS."
+  },
+  {
+    "id": "50",
+    "group": "Arena / Municipal",
+    "fieldKey": "50_general_venue_capacity",
+    "fieldLabel": "General venue capacity",
+    "unit": "seats",
+    "valuesByYear": {
+      "2021-22": 14000,
+      "2022-23": 14000,
+      "2023-24": 14000,
+      "2024-25": 14000,
+      "2025-26": 14000,
+      "2026-27": 14000
+    },
+    "rawStatus": "Public",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "confidence": "High",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official venue page"
+    },
+    "notes": "Current listed arena capacity."
+  },
+  {
+    "id": "51",
+    "group": "Arena / Municipal",
+    "fieldKey": "51_base_rent_floor_annualized",
+    "fieldLabel": "Base rent floor (annualized)",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 775716,
+      "2024-25": 799107,
+      "2025-26": 823084,
+      "2026-27": 839546
+    },
+    "rawStatus": "Public / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Arena lease reporting"
+    },
+    "notes": "Arena-operator level, not disclosed team sublease."
+  },
+  {
+    "id": "52",
+    "group": "Arena / Municipal",
+    "fieldKey": "52_rent_escalator",
+    "fieldLabel": "Rent escalator",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 0,
+      "2024-25": 0.03,
+      "2025-26": 0.03,
+      "2026-27": 0.02
+    },
+    "rawStatus": "Derived / projection",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Lease floor progression"
+    },
+    "notes": "Derived from public operator-level rent floor."
+  },
+  {
+    "id": "53",
+    "group": "Arena / Municipal",
+    "fieldKey": "53_security_police_overhead_per_event",
+    "fieldLabel": "Security / police overhead per event",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 12000,
+      "2022-23": 12000,
+      "2023-24": 13000,
+      "2024-25": 14000,
+      "2025-26": 15000,
+      "2026-27": 15500
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "City event policing framework"
+    },
+    "notes": "Event cost estimate."
+  },
+  {
+    "id": "54",
+    "group": "Arena / Municipal",
+    "fieldKey": "54_security_police_overhead_annual",
+    "fieldLabel": "Security / police overhead (annual)",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 408000,
+      "2022-23": 432000,
+      "2023-24": 468000,
+      "2024-25": 504000,
+      "2025-26": 540000,
+      "2026-27": 558000
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Per-event security \u00d7 home games"
+    },
+    "notes": "Annualized event security cost."
+  },
+  {
+    "id": "55",
+    "group": "Arena / Municipal",
+    "fieldKey": "55_utilities_hvac_load",
+    "fieldLabel": "Utilities & HVAC load",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 180000,
+      "2022-23": 190000,
+      "2023-24": 210000,
+      "2024-25": 230000,
+      "2025-26": 250000,
+      "2026-27": 260000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Annualized utilities / ice / cooling."
+  },
+  {
+    "id": "56",
+    "group": "Arena / Municipal",
+    "fieldKey": "56_load_in_load_out_allocation",
+    "fieldLabel": "Load-in / load-out allocation",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 80000,
+      "2022-23": 85000,
+      "2023-24": 90000,
+      "2024-25": 95000,
+      "2025-26": 100000,
+      "2026-27": 105000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Annualized mixed-use arena conversion allocation."
+  },
+  {
+    "id": "57",
+    "group": "Arena / Municipal",
+    "fieldKey": "57_midway_district_assessment_cfd",
+    "fieldLabel": "Midway district assessment / CFD",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 0,
+      "2024-25": 0,
+      "2025-26": 0,
+      "2026-27": 0
+    },
+    "rawStatus": "Context",
+    "normalizedStatus": "context",
+    "metricClass": "context",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Public review"
+    },
+    "notes": "No public team-side assessment identified."
+  },
+  {
+    "id": "58",
+    "group": "Arena / Municipal",
+    "fieldKey": "58_lease_horizon_months_remaining",
+    "fieldLabel": "Lease horizon (months remaining)",
+    "unit": "months",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 29,
+      "2024-25": 17,
+      "2025-26": 5,
+      "2026-27": 0
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Midway Rising timeline"
+    },
+    "notes": "Directional planning metric only."
+  },
+  {
+    "id": "59",
+    "group": "Arena / Municipal",
+    "fieldKey": "59_naming_rights_tranche_allocable_to_team_ops",
+    "fieldLabel": "Naming-rights tranche allocable to team ops",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 250000,
+      "2022-23": 250000,
+      "2023-24": 260000,
+      "2024-25": 275000,
+      "2025-26": 300000,
+      "2026-27": 310000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Logical annual value attributed to team ops."
+  },
+  {
+    "id": "60",
+    "group": "Arena / Municipal",
+    "fieldKey": "60_tax_liability",
+    "fieldLabel": "Tax liability",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 50000,
+      "2022-23": 50000,
+      "2023-24": 50000,
+      "2024-25": 50000,
+      "2025-26": 50000,
+      "2026-27": 50000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Nominal local tax placeholder."
+  },
+  {
+    "id": "61",
+    "group": "Arena / Municipal",
+    "fieldKey": "61_debt_to_value_ratio",
+    "fieldLabel": "Debt-to-value ratio",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.05,
+      "2022-23": 0.05,
+      "2023-24": 0.05,
+      "2024-25": 0.05,
+      "2025-26": 0.05,
+      "2026-27": 0.05
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Nominal placeholder only."
+  },
+  {
+    "id": "62",
+    "group": "Human Capital",
+    "fieldKey": "62_roster_headcount",
+    "fieldLabel": "Roster headcount",
+    "unit": "players",
+    "valuesByYear": {
+      "2021-22": 22,
+      "2022-23": 24,
+      "2023-24": 26,
+      "2024-25": 22,
+      "2025-26": 29,
+      "2026-27": 29
+    },
+    "rawStatus": "Public / projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official roster / game notes"
+    },
+    "notes": "Opening-night/current roster anchor."
+  },
+  {
+    "id": "63",
+    "group": "Human Capital",
+    "fieldKey": "63_coaching_staff_payroll",
+    "fieldLabel": "Coaching staff payroll",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 550000,
+      "2022-23": 560000,
+      "2023-24": 580000,
+      "2024-25": 620000,
+      "2025-26": 680000,
+      "2026-27": 710000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Head coach + assistants + video support."
+  },
+  {
+    "id": "64",
+    "group": "Human Capital",
+    "fieldKey": "64_front_office_fte",
+    "fieldLabel": "Front office FTE",
+    "unit": "FTE",
+    "valuesByYear": {
+      "2021-22": 42,
+      "2022-23": 43,
+      "2023-24": 44,
+      "2024-25": 45,
+      "2025-26": 46,
+      "2026-27": 47
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official front office + LinkedIn"
+    },
+    "notes": "Business / marketing / partnership staff estimate."
+  },
+  {
+    "id": "65",
+    "group": "Human Capital",
+    "fieldKey": "65_medical_training_tech_spend",
+    "fieldLabel": "Medical / training tech spend",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 100000,
+      "2022-23": 110000,
+      "2023-24": 130000,
+      "2024-25": 150000,
+      "2025-26": 175000,
+      "2026-27": 185000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Sports science / recovery allocation."
+  },
+  {
+    "id": "66",
+    "group": "Human Capital",
+    "fieldKey": "66_travel_logistics_ratio_air_heavy",
+    "fieldLabel": "Travel logistics ratio (air-heavy)",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.82,
+      "2022-23": 0.82,
+      "2023-24": 0.83,
+      "2024-25": 0.84,
+      "2025-26": 0.84,
+      "2026-27": 0.84
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Travel intensity ratio."
+  },
+  {
+    "id": "67",
+    "group": "Human Capital",
+    "fieldKey": "67_player_housing_spend",
+    "fieldLabel": "Player housing spend",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 200000,
+      "2022-23": 210000,
+      "2023-24": 230000,
+      "2024-25": 250000,
+      "2025-26": 280000,
+      "2026-27": 290000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Local market housing support estimate."
+  },
+  {
+    "id": "68",
+    "group": "Human Capital",
+    "fieldKey": "68_ahl_only_salary_floor",
+    "fieldLabel": "AHL-only salary floor",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 49000,
+      "2022-23": 50000,
+      "2023-24": 51500,
+      "2024-25": 52725,
+      "2025-26": 54000,
+      "2026-27": 55620
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "PHPA / benchmark"
+    },
+    "notes": "2024-25 visible minimum, other years stepped."
+  },
+  {
+    "id": "69",
+    "group": "Human Capital",
+    "fieldKey": "69_ahl_only_average_salary",
+    "fieldLabel": "AHL-only average salary",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 65000,
+      "2022-23": 66000,
+      "2023-24": 70000,
+      "2024-25": 74000,
+      "2025-26": 78000,
+      "2026-27": 80000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Modeled non-NHL salary average."
+  },
+  {
+    "id": "70",
+    "group": "Human Capital",
+    "fieldKey": "70_insurance_premiums",
+    "fieldLabel": "Insurance premiums",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 200000,
+      "2022-23": 210000,
+      "2023-24": 230000,
+      "2024-25": 250000,
+      "2025-26": 270000,
+      "2026-27": 280000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Workers' comp / liability allocation."
+  },
+  {
+    "id": "71",
+    "group": "Human Capital",
+    "fieldKey": "71_equipment_lifecycle_cost",
+    "fieldLabel": "Equipment lifecycle cost",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 150000,
+      "2022-23": 155000,
+      "2023-24": 165000,
+      "2024-25": 175000,
+      "2025-26": 190000,
+      "2026-27": 195000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Annual equipment budget estimate."
+  },
+  {
+    "id": "72",
+    "group": "Human Capital",
+    "fieldKey": "72_ducks_prospects_in_san_diego",
+    "fieldLabel": "Ducks prospects in San Diego",
+    "unit": "players",
+    "valuesByYear": {
+      "2021-22": 8,
+      "2022-23": 8,
+      "2023-24": 9,
+      "2024-25": 9,
+      "2025-26": 15,
+      "2026-27": 15
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official roster/game notes"
+    },
+    "notes": "Approximate Ducks-controlled development pipeline."
+  },
+  {
+    "id": "73",
+    "group": "Digital / Brand",
+    "fieldKey": "73_email_subscribers_estimated_active",
+    "fieldLabel": "Email subscribers (estimated active)",
+    "unit": "subs",
+    "valuesByYear": {
+      "2021-22": 18000,
+      "2022-23": 19000,
+      "2023-24": 20000,
+      "2024-25": 21000,
+      "2025-26": 22000,
+      "2026-27": 23000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Owned-contact base estimate."
+  },
+  {
+    "id": "74",
+    "group": "Digital / Brand",
+    "fieldKey": "74_email_database_value_per_active_subscriber",
+    "fieldLabel": "Email database value per active subscriber",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 5,
+      "2022-23": 5,
+      "2023-24": 5,
+      "2024-25": 5,
+      "2025-26": 5,
+      "2026-27": 5
+    },
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "User assumption"
+    },
+    "notes": "User-directed valuation heuristic."
+  },
+  {
+    "id": "75",
+    "group": "Digital / Brand",
+    "fieldKey": "75_email_database_value",
+    "fieldLabel": "Email database value",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 90000,
+      "2022-23": 95000,
+      "2023-24": 100000,
+      "2024-25": 105000,
+      "2025-26": 110000,
+      "2026-27": 115000
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Email subs \u00d7 $5 heuristic"
+    },
+    "notes": "Simple database value proxy."
+  },
+  {
+    "id": "76",
+    "group": "Digital / Brand",
+    "fieldKey": "76_social_audience_aggregate_est",
+    "fieldLabel": "Social audience (aggregate est.)",
+    "unit": "followers",
+    "valuesByYear": {
+      "2021-22": 150000,
+      "2022-23": 165000,
+      "2023-24": 180000,
+      "2024-25": 195000,
+      "2025-26": 205000,
+      "2026-27": 215000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Public social snippets"
+    },
+    "notes": "Approximate total audience across major platforms."
+  },
+  {
+    "id": "77",
+    "group": "Digital / Brand",
+    "fieldKey": "77_website_monthly_visits",
+    "fieldLabel": "Website monthly visits",
+    "unit": "visits",
+    "valuesByYear": {
+      "2021-22": 28000,
+      "2022-23": 29000,
+      "2023-24": 31000,
+      "2024-25": 33000,
+      "2025-26": 35200,
+      "2026-27": 38016
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Similarweb"
+    },
+    "notes": "Current-year anchor plus historical trend/projection."
+  },
+  {
+    "id": "78",
+    "group": "Digital / Brand",
+    "fieldKey": "78_bounce_rate",
+    "fieldLabel": "Bounce rate",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.5,
+      "2022-23": 0.495,
+      "2023-24": 0.49,
+      "2024-25": 0.48,
+      "2025-26": 0.4725,
+      "2026-27": 0.465
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Similarweb"
+    },
+    "notes": "Current-year anchor plus trend."
+  },
+  {
+    "id": "79",
+    "group": "Digital / Brand",
+    "fieldKey": "79_pages_per_visit",
+    "fieldLabel": "Pages per visit",
+    "unit": "pages",
+    "valuesByYear": {
+      "2021-22": 1.55,
+      "2022-23": 1.6,
+      "2023-24": 1.65,
+      "2024-25": 1.72,
+      "2025-26": 1.8,
+      "2026-27": 1.9
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Similarweb"
+    },
+    "notes": "Current-year anchor plus trend."
+  },
+  {
+    "id": "80",
+    "group": "Digital / Brand",
+    "fieldKey": "80_average_visit_duration_sec",
+    "fieldLabel": "Average visit duration (sec)",
+    "unit": "sec",
+    "valuesByYear": {
+      "2021-22": 60,
+      "2022-23": 62,
+      "2023-24": 65,
+      "2024-25": 68,
+      "2025-26": 70,
+      "2026-27": 75
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Similarweb"
+    },
+    "notes": "Current-year anchor plus trend."
+  },
+  {
+    "id": "81",
+    "group": "Digital / Brand",
+    "fieldKey": "81_organic_search_share",
+    "fieldLabel": "Organic search share",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.4,
+      "2022-23": 0.41,
+      "2023-24": 0.43,
+      "2024-25": 0.44,
+      "2025-26": 0.4551,
+      "2026-27": 0.46
+    },
+    "rawStatus": "Estimate / projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Similarweb"
+    },
+    "notes": "Current-year anchor plus trend."
+  },
+  {
+    "id": "82",
+    "group": "Digital / Brand",
+    "fieldKey": "82_customer_acquisition_cost",
+    "fieldLabel": "Customer acquisition cost",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 45,
+      "2022-23": 44,
+      "2023-24": 42,
+      "2024-25": 40,
+      "2025-26": 39,
+      "2026-27": 37
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Per-new-buyer marketing cost estimate."
+  },
+  {
+    "id": "83",
+    "group": "Digital / Brand",
+    "fieldKey": "83_net_promoter_score",
+    "fieldLabel": "Net promoter score",
+    "unit": "pts",
+    "valuesByYear": {
+      "2021-22": 45,
+      "2022-23": 43,
+      "2023-24": 46,
+      "2024-25": 50,
+      "2025-26": 54,
+      "2026-27": 56
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Sentiment proxy, not official survey."
+  },
+  {
+    "id": "84",
+    "group": "Digital / Brand",
+    "fieldKey": "84_foundation_asset_base",
+    "fieldLabel": "Foundation asset base",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 200000,
+      "2022-23": 220000,
+      "2023-24": 240000,
+      "2024-25": 260000,
+      "2025-26": 280000,
+      "2026-27": 300000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Official foundation giving + model"
+    },
+    "notes": "Logical asset placeholder."
+  },
+  {
+    "id": "85",
+    "group": "Digital / Brand",
+    "fieldKey": "85_affiliate_synergy_value",
+    "fieldLabel": "Affiliate synergy value",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 650000,
+      "2022-23": 700000,
+      "2023-24": 750000,
+      "2024-25": 800000,
+      "2025-26": 900000,
+      "2026-27": 950000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Ducks ecosystem cross-promotional value."
+  },
+  {
+    "id": "86",
+    "group": "Digital / Brand",
+    "fieldKey": "86_trademark_brand_asset_value",
+    "fieldLabel": "Trademark / brand asset value",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 300000,
+      "2022-23": 325000,
+      "2023-24": 350000,
+      "2024-25": 375000,
+      "2025-26": 425000,
+      "2026-27": 450000
+    },
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "confidence": "Low",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Model methodology"
+    },
+    "notes": "Logical brand asset placeholder."
+  },
+  {
+    "id": "87",
+    "group": "Valuation",
+    "fieldKey": "87_ebitda_margin",
+    "fieldLabel": "EBITDA margin",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.10632069943560794,
+      "2022-23": 0.12423580403652304,
+      "2023-24": 0.07504350803154049,
+      "2024-25": 0.09066520369924509,
+      "2025-26": 0.11115092404470113,
+      "2026-27": 0.1398211332989524
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Modeled margin from cost stack"
+    },
+    "notes": "Calculated from EBITDA \u00f7 gross revenue."
+  },
+  {
+    "id": "88",
+    "group": "Valuation",
+    "fieldKey": "88_ebitda",
+    "fieldLabel": "EBITDA",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 899263.7446153834,
+      "2022-23": 1112461.9187692292,
+      "2023-24": 733312.5169230774,
+      "2024-25": 943447.4639999997,
+      "2025-26": 1246049.3599999994,
+      "2026-27": 1682309
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Gross revenue less modeled operating cost stack"
+    },
+    "notes": "Operating earnings proxy excluding parent subsidy."
+  },
+  {
+    "id": "89",
+    "group": "Valuation",
+    "fieldKey": "89_operating_expenses_modeled",
+    "fieldLabel": "Operating expenses (modeled)",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 7558767,
+      "2022-23": 7841977,
+      "2023-24": 9038519,
+      "2024-25": 9462391,
+      "2025-26": 9964378,
+      "2026-27": 10349556
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Modeled cost stack"
+    },
+    "notes": "Includes base rent, security, utilities, load-in, coaching, FO, medical, travel/housing proxy, insurance, equipment, tax, and other overhead."
+  },
+  {
+    "id": "90",
+    "group": "Valuation",
+    "fieldKey": "90_operating_expense_ratio",
+    "fieldLabel": "Operating expense ratio",
+    "unit": "pct",
+    "valuesByYear": {
+      "2021-22": 0.893679300564392,
+      "2022-23": 0.875764195963477,
+      "2023-24": 0.9249564919684595,
+      "2024-25": 0.9093347963007549,
+      "2025-26": 0.8888490759552988,
+      "2026-27": 0.8601788667010476
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "OpEx \u00f7 gross revenue"
+    },
+    "notes": "Team-level modeled expense ratio."
+  },
+  {
+    "id": "91",
+    "group": "Valuation",
+    "fieldKey": "91_revenue_multiple",
+    "fieldLabel": "Revenue multiple",
+    "unit": "x",
+    "valuesByYear": {
+      "2021-22": 3.2,
+      "2022-23": 3.2,
+      "2023-24": 3.2,
+      "2024-25": 3.2,
+      "2025-26": 3.2,
+      "2026-27": 3.2
+    },
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "User assumption"
+    },
+    "notes": "Valuation multiple."
+  },
+  {
+    "id": "92",
+    "group": "Valuation",
+    "fieldKey": "92_implied_franchise_valuation",
+    "fieldLabel": "Implied franchise valuation",
+    "unit": "$",
+    "valuesByYear": {
+      "2021-22": 27065698.382769227,
+      "2022-23": 28654204.540061533,
+      "2023-24": 31269860.85415385,
+      "2024-25": 33298683.0848,
+      "2025-26": 35873367.552,
+      "2026-27": 38501968
+    },
+    "rawStatus": "Derived",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "confidence": "Medium",
+    "source": {
+      "workbook": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "sheet": "Master_Model",
+      "method": "Gross revenue \u00d7 3.2x multiple"
+    },
+    "notes": "User-specified multiple applied to gross revenue."
+  }
+]
