@@ -1,0 +1,26 @@
+{
+  "selectedWorkbook": {
+    "key": "primary",
+    "fileName": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+    "priority": 1
+  },
+  "consideredWorkbooks": [
+    {
+      "key": "primary",
+      "fileName": "San_Diego_Gulls_Forensic_Model_2021_2027.xlsx",
+      "priority": 1
+    },
+    {
+      "key": "secondary",
+      "fileName": "San_Diego_Gulls_Forensic_Model_2021_2027_Executive.xlsx",
+      "priority": 2
+    },
+    {
+      "key": "tertiary",
+      "fileName": "Holt_Keegan_Gulls_Eval.xlsx",
+      "priority": 3
+    }
+  ],
+  "conflicts": [],
+  "formulaReadLimitation": "Workbook formulas are consumed via cached/static cell values only. Formula cells without cached values appear blank in extraction."
+}
