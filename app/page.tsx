@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { ReactNode, useMemo, useState } from "react";
 
 type Scenario = "Baseline" | "Tactical" | "Aggressive";
 type Tab = "overview" | "recon" | "issues" | "action";
@@ -24,6 +24,109 @@ type ProjectedYear = YearPoint & {
   ebitdaMargin: number;
   capPct: number;
 };
+
+type ScenarioConfig = {
+  attendanceGrowth: number;
+  watpGrowth: number;
+  sponsorshipGrowth: number;
+  digitalGrowth: number;
+  ebitdaLift: number;
+};
+
+type BenchmarkTeam = {
+  label: string;
+  value: number;
+  color: string;
+};
+
+type Issue = {
+  id: number;
+  title: string;
+  severity: string;
+  owner: string;
+  impact: string;
+  action: string;
+};
+
+type ActionItem = {
+  pillar: string;
+  move: string;
+  lift: string;
+  why: string;
+};
+
+function projectValue(
+  base: YearPoint,
+  selectedScenario: Scenario,
+  config: ScenarioConfig
+): ProjectedYear {
+  const attendance = Math.round(base.attendance * (1 + config.attendanceGrowth));
+  const watp = Number((base.watp * (1 + config.watpGrowth)).toFixed(1));
+  const revenue = Number(
+    (
+      base.revenue *
+      (1 +
+        config.attendanceGrowth * 0.55 +
+        config.watpGrowth * 0.8 +
+        config.sponsorshipGrowth * 0.22)
+    ).toFixed(1)
+  );
+  const ebitda = Number((base.ebitda * (1 + config.ebitdaLift)).toFixed(1));
+  const sponsorship = Number(
+    (base.sponsorship * (1 + config.sponsorshipGrowth)).toFixed(2)
+  );
+  const digitalVisits = Number(
+    (base.digitalVisits * (1 + config.digitalGrowth)).toFixed(1)
+  );
+  const stmBase = Math.round(base.stmBase * (1 + config.attendanceGrowth * 0.5));
+  const parkingScore = Math.min(
+    78,
+    base.parkingScore +
+      (selectedScenario === "Baseline"
+        ? 5
+        : selectedScenario === "Tactical"
+        ? 11
+        : 16)
+  );
+  const opsScore = Math.min(
+    85,
+    base.opsScore +
+      (selectedScenario === "Baseline"
+        ? 4
+        : selectedScenario === "Tactical"
+        ? 9
+        : 14)
+  );
+  const marketingScore = Math.min(
+    90,
+    base.marketingScore +
+      (selectedScenario === "Baseline"
+        ? 6
+        : selectedScenario === "Tactical"
+        ? 12
+        : 17)
+  );
+  const valuation = Number((revenue * 3.2).toFixed(1));
+  const ebitdaMargin = Number(((ebitda / revenue) * 100).toFixed(1));
+  const capPct = Number(((attendance / 12920) * 100).toFixed(1));
+
+  return {
+    year: "2026-27",
+    attendance,
+    watp,
+    revenue,
+    ebitda,
+    sponsorship,
+    digitalVisits,
+    stmBase,
+    parkingScore,
+    opsScore,
+    marketingScore,
+    valuation,
+    ebitdaMargin,
+    capPct,
+  };
+}
 
 export default function Page() {
   const [scenario, setScenario] = useState<Scenario>("Tactical");
@@ -100,7 +203,7 @@ export default function Page() {
     []
   );
 
-  const scenarioMap = useMemo(
+  const scenarioMap = useMemo<Record<Scenario, ScenarioConfig>>(
     () => ({
       Baseline: {
         attendanceGrowth: 0.03,
@@ -127,7 +230,7 @@ export default function Page() {
     []
   );
 
-  const benchmarkTeams = useMemo(
+  const benchmarkTeams = useMemo<BenchmarkTeam[]>(
     () => [
       { label: "San Diego Gulls", value: 25.4, color: "#FC4C02" },
       { label: "Coachella Valley Firebirds", value: 29.5, color: "#60A5FA" },
@@ -137,7 +240,7 @@ export default function Page() {
     []
   );
 
-  const issueBacklog = useMemo(
+  const issueBacklog = useMemo<Issue[]>(
     () => [
       {
         id: 1,
@@ -189,7 +292,7 @@ export default function Page() {
     []
   );
 
-  const actionPlan = useMemo(
+  const actionPlan = useMemo<ActionItem[]>(
     () => [
       {
         pillar: "Revenue",
@@ -248,7 +351,6 @@ export default function Page() {
     const max = Math.max(...values);
     const usableWidth = width - padding * 2;
     const usableHeight = height - padding * 2;
-
     return values
       .map((value, index) => {
         const x =
@@ -260,85 +362,6 @@ export default function Page() {
       })
       .join(" ");
   };
-
-  function projectValue(
-    base: YearPoint,
-    selectedScenario: Scenario,
-    config: {
-      attendanceGrowth: number;
-      watpGrowth: number;
-      sponsorshipGrowth: number;
-      digitalGrowth: number;
-      ebitdaLift: number;
-    }
-  ): ProjectedYear {
-    const attendance = Math.round(base.attendance * (1 + config.attendanceGrowth));
-    const watp = Number((base.watp * (1 + config.watpGrowth)).toFixed(1));
-    const revenue = Number(
-      (
-        base.revenue *
-        (1 +
-          config.attendanceGrowth * 0.55 +
-          config.watpGrowth * 0.8 +
-          config.sponsorshipGrowth * 0.22)
-      ).toFixed(1)
-    );
-    const ebitda = Number((base.ebitda * (1 + config.ebitdaLift)).toFixed(1));
-    const sponsorship = Number(
-      (base.sponsorship * (1 + config.sponsorshipGrowth)).toFixed(2)
-    );
-    const digitalVisits = Number(
-      (base.digitalVisits * (1 + config.digitalGrowth)).toFixed(1)
-    );
-    const stmBase = Math.round(base.stmBase * (1 + config.attendanceGrowth * 0.5));
-    const parkingScore = Math.min(
-      78,
-      base.parkingScore +
-        (selectedScenario === "Baseline"
-          ? 5
-          : selectedScenario === "Tactical"
-          ? 11
-          : 16)
-    );
-    const opsScore = Math.min(
-      85,
-      base.opsScore +
-        (selectedScenario === "Baseline"
-          ? 4
-          : selectedScenario === "Tactical"
-          ? 9
-          : 14)
-    );
-    const marketingScore = Math.min(
-      90,
-      base.marketingScore +
-        (selectedScenario === "Baseline"
-          ? 6
-          : selectedScenario === "Tactical"
-          ? 12
-          : 17)
-    );
-    const valuation = Number((revenue * 3.2).toFixed(1));
-    const ebitdaMargin = Number(((ebitda / revenue) * 100).toFixed(1));
-    const capPct = Number(((attendance / 12920) * 100).toFixed(1));
-
-    return {
-      year: "2026-27",
-      attendance,
-      watp,
-      revenue,
-      ebitda,
-      sponsorship,
-      digitalVisits,
-      stmBase,
-      parkingScore,
-      opsScore,
-      marketingScore,
-      valuation,
-      ebitdaMargin,
-      capPct,
-    };
-  }
 
   const projected = useMemo(
     () => projectValue(baseYears[baseYears.length - 1], scenario, scenarioMap[scenario]),
@@ -398,7 +421,7 @@ export default function Page() {
   }: {
     title: string;
     subtitle: string;
-    children: React.ReactNode;
+    children: ReactNode;
   }) => (
     <div className="rounded-[28px] border border-white/10 bg-white/5 p-6 shadow-xl">
       <div className="text-lg font-bold">{title}</div>
