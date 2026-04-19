@@ -1,0 +1,1460 @@
+[
+  {
+    "category": "CONTROL",
+    "driver": "2026-27 attendance growth assumption",
+    "fieldKey": "control_2026_27_attendance_growth_assumption",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": null,
+      "2026-27": 0.03
+    },
+    "unit": "pct",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  },
+  {
+    "category": "CONTROL",
+    "driver": "2026-27 WATP growth assumption",
+    "fieldKey": "control_2026_27_watp_growth_assumption",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": null,
+      "2026-27": 0.032
+    },
+    "unit": "pct",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  },
+  {
+    "category": "CONTROL",
+    "driver": "2026-27 sponsorship growth assumption",
+    "fieldKey": "control_2026_27_sponsorship_growth_assumption",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": null,
+      "2026-27": 0.093
+    },
+    "unit": "pct",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  },
+  {
+    "category": "CONTROL",
+    "driver": "2026-27 per-cap F&B growth assumption",
+    "fieldKey": "control_2026_27_per_cap_f_b_growth_assumption",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": null,
+      "2026-27": 0.032
+    },
+    "unit": "pct",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  },
+  {
+    "category": "CONTROL",
+    "driver": "2026-27 merch per-cap growth assumption",
+    "fieldKey": "control_2026_27_merch_per_cap_growth_assumption",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": null,
+      "2026-27": 0.044
+    },
+    "unit": "pct",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  },
+  {
+    "category": "CONTROL",
+    "driver": "2026-27 STM price growth assumption",
+    "fieldKey": "control_2026_27_stm_price_growth_assumption",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": null,
+      "2026-27": 0.03
+    },
+    "unit": "pct",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  },
+  {
+    "category": "CONTROL",
+    "driver": "2026-27 single-game price growth assumption",
+    "fieldKey": "control_2026_27_single_game_price_growth_assumption",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": null,
+      "2026-27": 0.043
+    },
+    "unit": "pct",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  },
+  {
+    "category": "CONTROL",
+    "driver": "2026-27 website traffic growth assumption",
+    "fieldKey": "control_2026_27_website_traffic_growth_assumption",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": null,
+      "2026-27": 0.08
+    },
+    "unit": "pct",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  },
+  {
+    "category": "ATTENDANCE",
+    "driver": "Average attendance",
+    "fieldKey": "attendance_average_attendance",
+    "valuesByYear": {
+      "2021-22": 6992,
+      "2022-23": 6953,
+      "2023-24": 7249,
+      "2024-25": 7262,
+      "2025-26": 7403,
+      "2026-27": 7625
+    },
+    "unit": "fans/game",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "https://www.hockeydb.com/stte/san-diego-gulls-11619.html"
+  },
+  {
+    "category": "ATTENDANCE",
+    "driver": "Home games",
+    "fieldKey": "attendance_home_games",
+    "valuesByYear": {
+      "2021-22": 34,
+      "2022-23": 36,
+      "2023-24": 36,
+      "2024-25": 36,
+      "2025-26": 36,
+      "2026-27": 36
+    },
+    "unit": "games",
+    "rawStatus": "Public",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "sourceMethod": "https://www.sandiegogulls.com/news/detail/san-diego-gulls-2021-22-schedule-announced"
+  },
+  {
+    "category": "VENUE",
+    "driver": "Hockey seating capacity",
+    "fieldKey": "venue_hockey_seating_capacity",
+    "valuesByYear": {
+      "2021-22": 12920,
+      "2022-23": 12920,
+      "2023-24": 12920,
+      "2024-25": 12920,
+      "2025-26": 12920,
+      "2026-27": 12920
+    },
+    "unit": "seats",
+    "rawStatus": "Context",
+    "normalizedStatus": "context",
+    "metricClass": "context",
+    "sourceMethod": "https://www.sandiegogulls.com/assets/doc/2021-22-San-Diego-Gulls-Media-Guide-compressed-92470e4558.pdf"
+  },
+  {
+    "category": "VENUE",
+    "driver": "General venue capacity",
+    "fieldKey": "venue_general_venue_capacity",
+    "valuesByYear": {
+      "2021-22": 14000,
+      "2022-23": 14000,
+      "2023-24": 14000,
+      "2024-25": 14000,
+      "2025-26": 14000,
+      "2026-27": 14000
+    },
+    "unit": "seats",
+    "rawStatus": "Public",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "sourceMethod": "https://pechangaarenasd.com/about/"
+  },
+  {
+    "category": "SCHEDULE",
+    "driver": "Home weekend dates",
+    "fieldKey": "schedule_home_weekend_dates",
+    "valuesByYear": {
+      "2021-22": 23,
+      "2022-23": 23,
+      "2023-24": 26,
+      "2024-25": 25,
+      "2025-26": 25,
+      "2026-27": 25
+    },
+    "unit": "dates",
+    "rawStatus": "Public",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "sourceMethod": "Multiple official schedule releases on sandiegogulls.com"
+  },
+  {
+    "category": "SCHEDULE",
+    "driver": "Friday home games",
+    "fieldKey": "schedule_friday_home_games",
+    "valuesByYear": {
+      "2021-22": 11,
+      "2022-23": 12,
+      "2023-24": 12,
+      "2024-25": 9,
+      "2025-26": 10,
+      "2026-27": 10
+    },
+    "unit": "games",
+    "rawStatus": "Public",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "sourceMethod": "Multiple official schedule releases on sandiegogulls.com"
+  },
+  {
+    "category": "SCHEDULE",
+    "driver": "Saturday home games",
+    "fieldKey": "schedule_saturday_home_games",
+    "valuesByYear": {
+      "2021-22": 11,
+      "2022-23": 11,
+      "2023-24": 12,
+      "2024-25": 14,
+      "2025-26": 10,
+      "2026-27": 11
+    },
+    "unit": "games",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "Multiple official schedule releases on sandiegogulls.com"
+  },
+  {
+    "category": "SCHEDULE",
+    "driver": "Sunday home games",
+    "fieldKey": "schedule_sunday_home_games",
+    "valuesByYear": {
+      "2021-22": 1,
+      "2022-23": 1,
+      "2023-24": 2,
+      "2024-25": 2,
+      "2025-26": 5,
+      "2026-27": 4
+    },
+    "unit": "games",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "Multiple official schedule releases on sandiegogulls.com"
+  },
+  {
+    "category": "SCHEDULE",
+    "driver": "Back-to-back sets",
+    "fieldKey": "schedule_back_to_back_sets",
+    "valuesByYear": {
+      "2021-22": 24,
+      "2022-23": 21,
+      "2023-24": 18,
+      "2024-25": 20,
+      "2025-26": 22,
+      "2026-27": 22
+    },
+    "unit": "sets",
+    "rawStatus": "Public",
+    "normalizedStatus": "public",
+    "metricClass": "historical_public_anchor",
+    "sourceMethod": "Multiple official schedule releases on sandiegogulls.com"
+  },
+  {
+    "category": "MARKETING",
+    "driver": "Promotional/theme nights announced",
+    "fieldKey": "marketing_promotional_theme_nights_announced",
+    "valuesByYear": {
+      "2021-22": 13,
+      "2022-23": 15,
+      "2023-24": 16,
+      "2024-25": 23,
+      "2025-26": 28,
+      "2026-27": 30
+    },
+    "unit": "nights",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "Multiple official promo releases on sandiegogulls.com"
+  },
+  {
+    "category": "MARKETING",
+    "driver": "Giveaway items announced",
+    "fieldKey": "marketing_giveaway_items_announced",
+    "valuesByYear": {
+      "2021-22": 7,
+      "2022-23": 6,
+      "2023-24": 10,
+      "2024-25": 11,
+      "2025-26": 5,
+      "2026-27": 6
+    },
+    "unit": "items",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "Multiple official promo releases on sandiegogulls.com"
+  },
+  {
+    "category": "MARKETING",
+    "driver": "Pregame tailgates",
+    "fieldKey": "marketing_pregame_tailgates",
+    "valuesByYear": {
+      "2021-22": 6,
+      "2022-23": 6,
+      "2023-24": 7,
+      "2024-25": 7,
+      "2025-26": 7,
+      "2026-27": 8
+    },
+    "unit": "events",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "Multiple official promo releases on sandiegogulls.com"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "STM entry price",
+    "fieldKey": "ticketing_stm_entry_price",
+    "valuesByYear": {
+      "2021-22": 476,
+      "2022-23": 540,
+      "2023-24": 540,
+      "2024-25": 560,
+      "2025-26": 614,
+      "2026-27": 632
+    },
+    "unit": "$/seat",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "Multiple official ticketing releases on sandiegogulls.com"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "Single-game floor (box office / public)",
+    "fieldKey": "ticketing_single_game_floor_box_office_public",
+    "valuesByYear": {
+      "2021-22": 19,
+      "2022-23": 21,
+      "2023-24": 20,
+      "2024-25": 22,
+      "2025-26": 23,
+      "2026-27": 24
+    },
+    "unit": "$/ticket",
+    "rawStatus": "Public/Estimate/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "Multiple official ticketing releases on sandiegogulls.com"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "Single-game floor (online incl. fees)",
+    "fieldKey": "ticketing_single_game_floor_online_incl_fees",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": 27.5,
+      "2025-26": 28.75,
+      "2026-27": 29.75
+    },
+    "unit": "$/ticket",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.sandiegogulls.com/news/detail/single-game-tickets-available-now"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "College ticket price",
+    "fieldKey": "ticketing_college_ticket_price",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": 17,
+      "2026-27": 17.5
+    },
+    "unit": "$/ticket",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "https://www.sandiegogulls.com/tickets/college"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "Family pack price floor",
+    "fieldKey": "ticketing_family_pack_price_floor",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": null,
+      "2025-26": 130,
+      "2026-27": 135
+    },
+    "unit": "$/pack",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "https://www.sandiegogulls.com/tickets/4-packs"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "Group minimum size",
+    "fieldKey": "ticketing_group_minimum_size",
+    "valuesByYear": {
+      "2021-22": 10,
+      "2022-23": 10,
+      "2023-24": 10,
+      "2024-25": 10,
+      "2025-26": 10,
+      "2026-27": 10
+    },
+    "unit": "tickets",
+    "rawStatus": "Public/Context",
+    "normalizedStatus": "context",
+    "metricClass": "context",
+    "sourceMethod": "https://www.sandiegogulls.com/tickets/group-tickets"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "Max mini-plan discount",
+    "fieldKey": "ticketing_max_mini_plan_discount",
+    "valuesByYear": {
+      "2021-22": 0.15,
+      "2022-23": 0.15,
+      "2023-24": 0.2,
+      "2024-25": 0.3,
+      "2025-26": 0.3,
+      "2026-27": 0.3
+    },
+    "unit": "pct",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.sandiegogulls.com/tickets/gulls-mini-plans"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "Weighted average ticket price (modeled)",
+    "fieldKey": "ticketing_weighted_average_ticket_price_modeled",
+    "valuesByYear": {
+      "2021-22": 22,
+      "2022-23": 22.4,
+      "2023-24": 23.4,
+      "2024-25": 24.4,
+      "2025-26": 25.4,
+      "2026-27": 26.21
+    },
+    "unit": "$/ticket",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "Group sales share of gate",
+    "fieldKey": "ticketing_group_sales_share_of_gate",
+    "valuesByYear": {
+      "2021-22": 0.16,
+      "2022-23": 0.17,
+      "2023-24": 0.18,
+      "2024-25": 0.19,
+      "2025-26": 0.2,
+      "2026-27": 0.21
+    },
+    "unit": "pct",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "Premium seating yield (included in gate)",
+    "fieldKey": "ticketing_premium_seating_yield_included_in_gate",
+    "valuesByYear": {
+      "2021-22": 380000,
+      "2022-23": 400000,
+      "2023-24": 460000,
+      "2024-25": 520000,
+      "2025-26": 600000,
+      "2026-27": 660000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "STM base (full-season equivalents)",
+    "fieldKey": "ticketing_stm_base_full_season_equivalents",
+    "valuesByYear": {
+      "2021-22": 2300,
+      "2022-23": 2350,
+      "2023-24": 2450,
+      "2024-25": 2550,
+      "2025-26": 2700,
+      "2026-27": 2780
+    },
+    "unit": "FSE",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "TICKETING",
+    "driver": "STM retention rate",
+    "fieldKey": "ticketing_stm_retention_rate",
+    "valuesByYear": {
+      "2021-22": 0.77,
+      "2022-23": 0.76,
+      "2023-24": 0.78,
+      "2024-25": 0.8,
+      "2025-26": 0.82,
+      "2026-27": 0.83
+    },
+    "unit": "pct",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ANCILLARY",
+    "driver": "F&B per-cap gross",
+    "fieldKey": "ancillary_f_b_per_cap_gross",
+    "valuesByYear": {
+      "2021-22": 13,
+      "2022-23": 13.4,
+      "2023-24": 14,
+      "2024-25": 14.8,
+      "2025-26": 15.5,
+      "2026-27": 16
+    },
+    "unit": "$/attendee",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ANCILLARY",
+    "driver": "Team concession commission rate",
+    "fieldKey": "ancillary_team_concession_commission_rate",
+    "valuesByYear": {
+      "2021-22": 0.04,
+      "2022-23": 0.04,
+      "2023-24": 0.04,
+      "2024-25": 0.04,
+      "2025-26": 0.04,
+      "2026-27": 0.04
+    },
+    "unit": "pct",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ANCILLARY",
+    "driver": "Merchandise per-cap",
+    "fieldKey": "ancillary_merchandise_per_cap",
+    "valuesByYear": {
+      "2021-22": 3.6,
+      "2022-23": 3.8,
+      "2023-24": 4,
+      "2024-25": 4.2,
+      "2025-26": 4.5,
+      "2026-27": 4.7
+    },
+    "unit": "$/attendee",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ANCILLARY",
+    "driver": "Parking fee assumption",
+    "fieldKey": "ancillary_parking_fee_assumption",
+    "valuesByYear": {
+      "2021-22": 15,
+      "2022-23": 15,
+      "2023-24": 15,
+      "2024-25": 18,
+      "2025-26": 20,
+      "2026-27": 21
+    },
+    "unit": "$/vehicle",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://pechangaarenasd.com/plan-your-visit/directions-parking/"
+  },
+  {
+    "category": "ANCILLARY",
+    "driver": "Average auto occupancy",
+    "fieldKey": "ancillary_average_auto_occupancy",
+    "valuesByYear": {
+      "2021-22": 2.6,
+      "2022-23": 2.6,
+      "2023-24": 2.6,
+      "2024-25": 2.5,
+      "2025-26": 2.5,
+      "2026-27": 2.5
+    },
+    "unit": "persons/vehicle",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ANCILLARY",
+    "driver": "Team share of parking",
+    "fieldKey": "ancillary_team_share_of_parking",
+    "valuesByYear": {
+      "2021-22": 0.05,
+      "2022-23": 0.05,
+      "2023-24": 0.05,
+      "2024-25": 0.05,
+      "2025-26": 0.05,
+      "2026-27": 0.05
+    },
+    "unit": "pct",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "SPONSORSHIP",
+    "driver": "Total sponsorship revenue",
+    "fieldKey": "sponsorship_total_sponsorship_revenue",
+    "valuesByYear": {
+      "2021-22": 1950000,
+      "2022-23": 2000000,
+      "2023-24": 2200000,
+      "2024-25": 2450000,
+      "2025-26": 2700000,
+      "2026-27": 2951100
+    },
+    "unit": "$",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "SPONSORSHIP",
+    "driver": "Title partner value",
+    "fieldKey": "sponsorship_title_partner_value",
+    "valuesByYear": {
+      "2021-22": 450000,
+      "2022-23": 450000,
+      "2023-24": 480000,
+      "2024-25": 500000,
+      "2025-26": 550000,
+      "2026-27": 580000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "SPONSORSHIP",
+    "driver": "Jersey / patch revenue",
+    "fieldKey": "sponsorship_jersey_patch_revenue",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 150000,
+      "2024-25": 180000,
+      "2025-26": 200000,
+      "2026-27": 220000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "SPONSORSHIP",
+    "driver": "Digital inventory yield",
+    "fieldKey": "sponsorship_digital_inventory_yield",
+    "valuesByYear": {
+      "2021-22": 80000,
+      "2022-23": 90000,
+      "2023-24": 110000,
+      "2024-25": 130000,
+      "2025-26": 150000,
+      "2026-27": 165000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "MEDIA",
+    "driver": "Broadcast / streaming value",
+    "fieldKey": "media_broadcast_streaming_value",
+    "valuesByYear": {
+      "2021-22": 150000,
+      "2022-23": 100000,
+      "2023-24": 100000,
+      "2024-25": 110000,
+      "2025-26": 130000,
+      "2026-27": 145000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://theahl.com/news/ahl-flosports-partnership-extension"
+  },
+  {
+    "category": "DIGITAL",
+    "driver": "Email subscribers (estimated active)",
+    "fieldKey": "digital_email_subscribers_estimated_active",
+    "valuesByYear": {
+      "2021-22": 18000,
+      "2022-23": 19000,
+      "2023-24": 20000,
+      "2024-25": 21000,
+      "2025-26": 22000,
+      "2026-27": 23000
+    },
+    "unit": "subs",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "DIGITAL",
+    "driver": "Social audience (aggregate est.)",
+    "fieldKey": "digital_social_audience_aggregate_est",
+    "valuesByYear": {
+      "2021-22": 150000,
+      "2022-23": 165000,
+      "2023-24": 180000,
+      "2024-25": 195000,
+      "2025-26": 205000,
+      "2026-27": 215000
+    },
+    "unit": "followers",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Multiple public social snippets"
+  },
+  {
+    "category": "DIGITAL",
+    "driver": "Website monthly visits",
+    "fieldKey": "digital_website_monthly_visits",
+    "valuesByYear": {
+      "2021-22": 28000,
+      "2022-23": 29000,
+      "2023-24": 31000,
+      "2024-25": 33000,
+      "2025-26": 35200,
+      "2026-27": 38016
+    },
+    "unit": "visits",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.similarweb.com/website/sandiegogulls.com/"
+  },
+  {
+    "category": "DIGITAL",
+    "driver": "Bounce rate",
+    "fieldKey": "digital_bounce_rate",
+    "valuesByYear": {
+      "2021-22": 0.5,
+      "2022-23": 0.495,
+      "2023-24": 0.49,
+      "2024-25": 0.48,
+      "2025-26": 0.4725,
+      "2026-27": 0.465
+    },
+    "unit": "pct",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.similarweb.com/website/sandiegogulls.com/"
+  },
+  {
+    "category": "DIGITAL",
+    "driver": "Pages per visit",
+    "fieldKey": "digital_pages_per_visit",
+    "valuesByYear": {
+      "2021-22": 1.55,
+      "2022-23": 1.6,
+      "2023-24": 1.65,
+      "2024-25": 1.72,
+      "2025-26": 1.8,
+      "2026-27": 1.9
+    },
+    "unit": "pages",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.similarweb.com/website/sandiegogulls.com/"
+  },
+  {
+    "category": "DIGITAL",
+    "driver": "Average visit duration (sec)",
+    "fieldKey": "digital_average_visit_duration_sec",
+    "valuesByYear": {
+      "2021-22": 60,
+      "2022-23": 62,
+      "2023-24": 65,
+      "2024-25": 68,
+      "2025-26": 70,
+      "2026-27": 75
+    },
+    "unit": "sec",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.similarweb.com/website/sandiegogulls.com/"
+  },
+  {
+    "category": "DIGITAL",
+    "driver": "Organic search share",
+    "fieldKey": "digital_organic_search_share",
+    "valuesByYear": {
+      "2021-22": 0.4,
+      "2022-23": 0.41,
+      "2023-24": 0.43,
+      "2024-25": 0.44,
+      "2025-26": 0.4551,
+      "2026-27": 0.46
+    },
+    "unit": "pct",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.similarweb.com/website/sandiegogulls.com/"
+  },
+  {
+    "category": "MARKETING",
+    "driver": "Customer acquisition cost",
+    "fieldKey": "marketing_customer_acquisition_cost",
+    "valuesByYear": {
+      "2021-22": 45,
+      "2022-23": 44,
+      "2023-24": 42,
+      "2024-25": 40,
+      "2025-26": 39,
+      "2026-27": 37
+    },
+    "unit": "$/new buyer",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "MARKETING",
+    "driver": "Net promoter score",
+    "fieldKey": "marketing_net_promoter_score",
+    "valuesByYear": {
+      "2021-22": 45,
+      "2022-23": 43,
+      "2023-24": 46,
+      "2024-25": 50,
+      "2025-26": 54,
+      "2026-27": 56
+    },
+    "unit": "pts",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Facility fee per paid ticket",
+    "fieldKey": "arena_facility_fee_per_paid_ticket",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": 2.5,
+      "2024-25": 3,
+      "2025-26": 3,
+      "2026-27": 3
+    },
+    "unit": "$/ticket",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Lease-era reporting / model assumption"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Base rent floor (annualized)",
+    "fieldKey": "arena_base_rent_floor_annualized",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": 775716,
+      "2024-25": 799107,
+      "2025-26": 823084,
+      "2026-27": 839546
+    },
+    "unit": "$",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "https://www.lee-associates.com/elee/utc/newsletter/091224/article3.pdf"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Rent escalator",
+    "fieldKey": "arena_rent_escalator",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": null,
+      "2024-25": 0.03,
+      "2025-26": 0.03,
+      "2026-27": 0.02
+    },
+    "unit": "pct",
+    "rawStatus": "Derived/Projection",
+    "normalizedStatus": "derived",
+    "metricClass": "derived",
+    "sourceMethod": "Lease-era reporting / model assumption"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Security / police overhead per event",
+    "fieldKey": "arena_security_police_overhead_per_event",
+    "valuesByYear": {
+      "2021-22": 12000,
+      "2022-23": 12000,
+      "2023-24": 13000,
+      "2024-25": 14000,
+      "2025-26": 15000,
+      "2026-27": 15500
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.sandiego.gov/sites/default/files/specialeventsopsmanual2020.pdf"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Utilities & HVAC load",
+    "fieldKey": "arena_utilities_hvac_load",
+    "valuesByYear": {
+      "2021-22": 180000,
+      "2022-23": 190000,
+      "2023-24": 210000,
+      "2024-25": 230000,
+      "2025-26": 250000,
+      "2026-27": 260000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Load-in / load-out allocation",
+    "fieldKey": "arena_load_in_load_out_allocation",
+    "valuesByYear": {
+      "2021-22": 80000,
+      "2022-23": 85000,
+      "2023-24": 90000,
+      "2024-25": 95000,
+      "2025-26": 100000,
+      "2026-27": 105000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Midway district assessment / CFD",
+    "fieldKey": "arena_midway_district_assessment_cfd",
+    "valuesByYear": {
+      "2021-22": 0,
+      "2022-23": 0,
+      "2023-24": 0,
+      "2024-25": 0,
+      "2025-26": 0,
+      "2026-27": 0
+    },
+    "unit": "$",
+    "rawStatus": "Context",
+    "normalizedStatus": "context",
+    "metricClass": "context",
+    "sourceMethod": "Public review"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Lease horizon (months remaining)",
+    "fieldKey": "arena_lease_horizon_months_remaining",
+    "valuesByYear": {
+      "2021-22": null,
+      "2022-23": null,
+      "2023-24": 29,
+      "2024-25": 17,
+      "2025-26": 5,
+      "2026-27": 0
+    },
+    "unit": "months",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.sandiego.gov/economic-development/real-estate/midway-rising"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Naming-rights tranche allocable to team ops",
+    "fieldKey": "arena_naming_rights_tranche_allocable_to_team_ops",
+    "valuesByYear": {
+      "2021-22": 250000,
+      "2022-23": 250000,
+      "2023-24": 260000,
+      "2024-25": 275000,
+      "2025-26": 300000,
+      "2026-27": 310000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Tax liability",
+    "fieldKey": "arena_tax_liability",
+    "valuesByYear": {
+      "2021-22": 50000,
+      "2022-23": 50000,
+      "2023-24": 50000,
+      "2024-25": 50000,
+      "2025-26": 50000,
+      "2026-27": 50000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "ARENA",
+    "driver": "Debt-to-value ratio",
+    "fieldKey": "arena_debt_to_value_ratio",
+    "valuesByYear": {
+      "2021-22": 0.05,
+      "2022-23": 0.05,
+      "2023-24": 0.05,
+      "2024-25": 0.05,
+      "2025-26": 0.05,
+      "2026-27": 0.05
+    },
+    "unit": "pct",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "Roster headcount",
+    "fieldKey": "human_capital_roster_headcount",
+    "valuesByYear": {
+      "2021-22": 22,
+      "2022-23": 24,
+      "2023-24": 26,
+      "2024-25": 22,
+      "2025-26": 29,
+      "2026-27": 29
+    },
+    "unit": "players",
+    "rawStatus": "Public/Projection",
+    "normalizedStatus": "public_projection",
+    "metricClass": "projection",
+    "sourceMethod": "Multiple official roster/game notes sources"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "Coaching staff payroll",
+    "fieldKey": "human_capital_coaching_staff_payroll",
+    "valuesByYear": {
+      "2021-22": 550000,
+      "2022-23": 560000,
+      "2023-24": 580000,
+      "2024-25": 620000,
+      "2025-26": 680000,
+      "2026-27": 710000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "Front office FTE",
+    "fieldKey": "human_capital_front_office_fte",
+    "valuesByYear": {
+      "2021-22": 42,
+      "2022-23": 43,
+      "2023-24": 44,
+      "2024-25": 45,
+      "2025-26": 46,
+      "2026-27": 47
+    },
+    "unit": "FTE",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.linkedin.com/company/san-diego-gulls"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "Medical / training tech spend",
+    "fieldKey": "human_capital_medical_training_tech_spend",
+    "valuesByYear": {
+      "2021-22": 100000,
+      "2022-23": 110000,
+      "2023-24": 130000,
+      "2024-25": 150000,
+      "2025-26": 175000,
+      "2026-27": 185000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "Travel logistics ratio (air-heavy)",
+    "fieldKey": "human_capital_travel_logistics_ratio_air_heavy",
+    "valuesByYear": {
+      "2021-22": 0.82,
+      "2022-23": 0.82,
+      "2023-24": 0.83,
+      "2024-25": 0.84,
+      "2025-26": 0.84,
+      "2026-27": 0.84
+    },
+    "unit": "pct",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "Player housing spend",
+    "fieldKey": "human_capital_player_housing_spend",
+    "valuesByYear": {
+      "2021-22": 200000,
+      "2022-23": 210000,
+      "2023-24": 230000,
+      "2024-25": 250000,
+      "2025-26": 280000,
+      "2026-27": 290000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "AHL-only salary floor",
+    "fieldKey": "human_capital_ahl_only_salary_floor",
+    "valuesByYear": {
+      "2021-22": 49000,
+      "2022-23": 50000,
+      "2023-24": 51500,
+      "2024-25": 52725,
+      "2025-26": 54000,
+      "2026-27": 55620
+    },
+    "unit": "$",
+    "rawStatus": "Estimate/Projection",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://phpa.com/site/agreements"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "AHL-only average salary",
+    "fieldKey": "human_capital_ahl_only_average_salary",
+    "valuesByYear": {
+      "2021-22": 65000,
+      "2022-23": 66000,
+      "2023-24": 70000,
+      "2024-25": 74000,
+      "2025-26": 78000,
+      "2026-27": 80000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "Insurance premiums",
+    "fieldKey": "human_capital_insurance_premiums",
+    "valuesByYear": {
+      "2021-22": 200000,
+      "2022-23": 210000,
+      "2023-24": 230000,
+      "2024-25": 250000,
+      "2025-26": 270000,
+      "2026-27": 280000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "Equipment lifecycle cost",
+    "fieldKey": "human_capital_equipment_lifecycle_cost",
+    "valuesByYear": {
+      "2021-22": 150000,
+      "2022-23": 155000,
+      "2023-24": 165000,
+      "2024-25": 175000,
+      "2025-26": 190000,
+      "2026-27": 195000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "HUMAN CAPITAL",
+    "driver": "Ducks prospects in San Diego",
+    "fieldKey": "human_capital_ducks_prospects_in_san_diego",
+    "valuesByYear": {
+      "2021-22": 8,
+      "2022-23": 8,
+      "2023-24": 9,
+      "2024-25": 9,
+      "2025-26": 15,
+      "2026-27": 15
+    },
+    "unit": "players",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Multiple official roster/game notes sources"
+  },
+  {
+    "category": "OTHER",
+    "driver": "NHL parent subsidy",
+    "fieldKey": "other_nhl_parent_subsidy",
+    "valuesByYear": {
+      "2021-22": 4200000,
+      "2022-23": 4300000,
+      "2023-24": 4400000,
+      "2024-25": 4500000,
+      "2025-26": 4700000,
+      "2026-27": 4900000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "OTHER",
+    "driver": "Youth hockey / camp revenue",
+    "fieldKey": "other_youth_hockey_camp_revenue",
+    "valuesByYear": {
+      "2021-22": 80000,
+      "2022-23": 90000,
+      "2023-24": 100000,
+      "2024-25": 120000,
+      "2025-26": 140000,
+      "2026-27": 160000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "OTHER",
+    "driver": "Foundation asset base",
+    "fieldKey": "other_foundation_asset_base",
+    "valuesByYear": {
+      "2021-22": 200000,
+      "2022-23": 220000,
+      "2023-24": 240000,
+      "2024-25": 260000,
+      "2025-26": 280000,
+      "2026-27": 300000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "https://www.sandiegogulls.com/community/foundation"
+  },
+  {
+    "category": "OTHER",
+    "driver": "Affiliate synergy value",
+    "fieldKey": "other_affiliate_synergy_value",
+    "valuesByYear": {
+      "2021-22": 650000,
+      "2022-23": 700000,
+      "2023-24": 750000,
+      "2024-25": 800000,
+      "2025-26": 900000,
+      "2026-27": 950000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "OTHER",
+    "driver": "Trademark / brand asset value",
+    "fieldKey": "other_trademark_brand_asset_value",
+    "valuesByYear": {
+      "2021-22": 300000,
+      "2022-23": 325000,
+      "2023-24": 350000,
+      "2024-25": 375000,
+      "2025-26": 425000,
+      "2026-27": 450000
+    },
+    "unit": "$",
+    "rawStatus": "Estimate",
+    "normalizedStatus": "estimate",
+    "metricClass": "modeled_estimate",
+    "sourceMethod": "Model methodology"
+  },
+  {
+    "category": "VALUATION",
+    "driver": "Revenue multiple",
+    "fieldKey": "valuation_revenue_multiple",
+    "valuesByYear": {
+      "2021-22": 3.2,
+      "2022-23": 3.2,
+      "2023-24": 3.2,
+      "2024-25": 3.2,
+      "2025-26": 3.2,
+      "2026-27": 3.2
+    },
+    "unit": "x",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  },
+  {
+    "category": "DIGITAL",
+    "driver": "Email database value per active subscriber",
+    "fieldKey": "digital_email_database_value_per_active_subscriber",
+    "valuesByYear": {
+      "2021-22": 5,
+      "2022-23": 5,
+      "2023-24": 5,
+      "2024-25": 5,
+      "2025-26": 5,
+      "2026-27": 5
+    },
+    "unit": "$/active sub",
+    "rawStatus": "Control",
+    "normalizedStatus": "control",
+    "metricClass": "control",
+    "sourceMethod": "Model control"
+  }
+]
