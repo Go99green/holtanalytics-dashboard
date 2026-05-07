@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## PR-to-Site Deployment (Vercel)
+
+This repo now includes a GitHub Actions workflow at `.github/workflows/vercel-deploy.yml` that supports:
+
+- **PR previews** on `pull_request` events
+- **Automatic production deployment** when code is pushed to `main`
+
+### Required GitHub Secrets
+
+Set the following repository secrets:
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+
+### Typical Flow
+
+1. Open a PR from your branch.
+2. GitHub Action runs lint + creates a Vercel preview deployment.
+3. Merge PR into `main`.
+4. Workflow auto-deploys to production site.
+
+> If your Vercel project is already connected to GitHub, you can keep this workflow or disable duplicate deploy triggers in Vercel project settings.
